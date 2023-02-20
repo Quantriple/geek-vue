@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Todolist from "@/components/Todolist.vue";
 </script>
 
 <!--<template>
@@ -25,7 +26,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <router-link to="/">首页</router-link> |
     <router-link to="/about">关于</router-link>
   </div>
-  <router-view></router-view>
+  <Todolist></Todolist>
+<!--  <router-view></router-view>-->
 </template>
 
 <style scoped>
